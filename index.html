@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Культурний гід з вуличного мистецтва</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="landing-page">
+  <div class="wrapper">
+    <form id="form" action="">
+      <h1 class="login">Login</h1>
+      <div class="input-box">
+        <input class="form-input" type="text" id="username" placeholder="Username" required>
+        <i id="i" class='bx bxs-user'></i>
+        <!-- <span id="username_error"></span> -->
+        <span id="usernameError" class="error"></span><br><br>
+      </div>
+      <div class="input-box">
+        <input class="form-input" type="password" id="password" placeholder="Password" required>
+        <i id="i" class='bx bxs-lock-alt'></i>
+        <span id="passwordError" class="error"></span><br><br>
+      </div>
+
+      <div class="remember-forgot">
+        <label class="form-label"><input class="form-input" type="checkbox">Remember me</label>
+        <a class="form-a" href="#">Forgot password?</a>
+      </div>
+      
+      <button type="submit" class="btn" onclick="redirectToMainSite()">Login</button>
+
+      <div class="register-link">
+        <p class="form-p">Don't have an account?  <a class="form-a" href="#">Register</a></p>
+      </div>
+    </form>
+  </div>
+    
+  </div>
+
+  <div id="main-site">
+    <noscript>Включіть JavaScript!!!</noscript>
+    <div class="container">
+        <div class="section1">
+                <div class="logo"></div>
+        </div>
+      <header>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showHome('home')" class="selected"><span>Головна</span></a></li>
+                <li><a href="#artists" onclick="showArtists('artists')" class="selected"><span>Художники</span></a></li>
+                <li><a href="#streetart" onclick="showStreetArt('StreetArt')" class="selected"><span>Мистецтво на вулиці</span></a></li>
+                <li><a href="#galery" onclick="showGalery('galery')" class="selected"><span>Галерея</span></a></li>
+                <li><a href="#contacts" onclick="showContacts('kontacts')" class="selected"><span>О нас</span></a></li>
+            </ul>
+        </nav>
+      </header>
+  <div id="content">
+    <section>
+      <h2>Ласкаво просимо на головну сторінку!</h2>
+      <p>Привіт! Вас вітає "Культурний гід по вуличному мистецтву" - ваш провідник у світі вуличного мистецтва. Ми збираємо найбільш цікаві факти, історії та інформацію про вуличне мистецтво з усього світу!</p>
+      <p>Тут ви знайдете усе про різноманітність вуличних творів мистецтва, від графіті та муралів до скульптур і інсталяцій, а також інформацію про талановитих художників, що творять на вулицях наших міст.</p>
+      <p>Ми вас знайомимо з різноманітними культурами через їхні вуличні твори мистецтва та допомагаємо розкрити їхню історію, значення та вплив на сучасність.</p>
+      <p>Не забудьте оглянути <a href="#sections">наші розділи</a>, де ви зможете знайти фотогалерею різноманітних вуличних шедеврів, поради від талановитих художників та багато іншої цікавої інформації!</p>
+    </section>
+    
+    <section id="sections">
+      <h2>Наші розділи</h2>
+      <p>У нашому гіді ви знайдете:</p>
+      <ul class="li1">
+        <li>На <a class="li1-a" href="#home" onclick="showHome('home')">Головній сторінці </a>ви знайдете багато цікавої інформації!</li>
+        <li>У розділі "<a class="li1-a" href="#artists" onclick="showArtists('artists')">Художники</a>" є профілі та творчість видатних художників вуличного мистецтва.</li>
+        <li>Розділ "<a class="li1-a" href="#streetart" onclick="showStreetArt('StreetArt')">Мистецтво на вулиці</a>" розкаже про історію та різноманіття вуличного мистецтва.</li>
+        <li><a class="li1-a" href="#galery" onclick="showGalery('galery')">Галерея</a> з фотографіями найкращих вуличних шедеврів.</li>
+        <li><a class="li1-a" href="#contacts" onclick="showContacts('kontacts')">О нас</a></li>
+      </ul>
+    </section>
+  </div>
+  <main>
+    
+  </main>
+  <footer>
+    <p>&copy; 2024 Культурний гід з вуличного мистецтва</p>
+  </footer>
+    </div>
+  </div>
+  
+  
+    <script src="script.js"></script>
+</body>
+</html>

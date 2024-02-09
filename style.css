@@ -1,0 +1,518 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+  
+header {
+    border: 2px solid rgba(207, 207, 207, 0.829);
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    color: white;
+    background: url('./images/синие\ граффити\ на\ стене.jpg') no-repeat;
+    background-size: cover;
+    background-position: center right; 
+    width: 100%;
+    height: 300px;
+}
+footer p {
+    font-size: 18px;
+    text-shadow: -1px -1px 0 #e9ca02,  
+                  1px -1px 0 #00a6ff,
+                 -1px 1px 0 #005dd6,
+                  1px 1px 0 #e9ca02;
+}
+li {
+    color: rgb(255, 234, 208);
+    font-size: 18px;
+    text-shadow: -1px -1px 0 #000000,  
+                  1px -1px 0 #000000,
+                 -1px 1px 0 #000000,
+                  1px 1px 0 #000000;
+}
+.logo{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    border: 2px solid none;
+    background-image: url(./images/svgviewer-png-output.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box{
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    background-size: cover;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.404);
+    text-align: center;
+}
+.section1 {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(207, 207, 207, 0.829);
+}
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  .main-site a {
+    color: #00eeff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    text-shadow: -1px -1px 0 #000000,  
+                  1px -1px 0 #000000,
+                 -1px 1px 0 #000000,
+                  1px 1px 0 #000000;
+  }
+
+  .main-site a:hover {
+    color: #b30000;
+  }
+  body {
+    font-family: 'Bilbo Swash Caps', cursive;
+  }
+  .li1-a:hover{
+    color: #ff0000;
+  }
+  .li1-a{
+    color: #51ff00;
+  }
+.li1 {
+    border-top: 2px solid #ccc;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-clip: border-box;
+    padding: 20px;
+    overflow: hidden;
+    margin: 0;
+}
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.tab-link {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.tab-link.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.tab-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.список-вкладок {
+    display: flex;
+    flex-wrap: wrap;
+}
+.вкладка {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.вкладка.активна {
+    font-size: 17px;
+    background-image: url(./images/синие\ граффити\ на\ стене\ \(1\).jpg);
+    background-size: 120px;
+    background-position: center center;
+    color: white;
+}
+.зміст {
+    display: none;
+    padding: 20px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.зміст.активний {
+    display: block;
+}
+
+.custom-tab.active {
+    display: block;
+}
+
+.custom-tab-link {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.custom-tab-link.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.custom-tab-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.custom-tab-links-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custom-tab {
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.custom-tab.active {
+    display: block;
+}
+
+
+#main-site {
+    display: none;
+    a {
+        text-decoration: none;
+    }
+}
+#landing-page *{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+#landing-page{
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./images/граффити\ на\ стене.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper .login{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box .form-input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box .form-input::placeholder{
+    color: #fff;
+}
+.input-box #i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot .form-label .form-input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot .form-a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot .form-a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link .form-p .form-a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link .form-p .form-a:hover{
+    text-decoration: underline;
+}
+.title {
+    text-align: center;
+    color: #555;
+} 
+
+  .section-title {
+    color: #555;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+
+  .section-content {
+    margin-bottom: 20px;
+  }
+
+  .btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .custom-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #fff;
+  }
+
+  .btn-light {
+    margin-top: 15px;
+    margin-right: 10px;
+    background: transparent;
+    border-width: 0;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: .3s;
+  }
+  .btn-light span{
+    display: block;
+    position: relative;
+    z-index: 3;
+    background: #41294a;
+    color: white;
+    padding: 0 30px;
+    line-height: 40px;
+  }
+  .btn-light::before{
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    left: -5px;
+    top: -5px;
+    background: #ff2c54;
+    z-index: 1;
+    transition: .4s ease-out;
+  }
+  .btn-light::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    right: -5px;
+    bottom: -5px;
+    background: #41ebdf;
+    transition: .4s ease-out .1s;
+  }
+  .btn-light:hover:before{
+    transform: translate(5px, 5px);
+  }
+  .btn-light:hover:after {
+    transform: translate(-5px, -5px);
+  }
+
+.container-home {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content { 
+    display: none; 
+}
+.active { 
+    display: block; 
+}
+.active-button { 
+    padding: 10px 15px;
+    margin-right: 15px;
+    margin-left: 5px;
+} 
+.home-period1-div{
+    background: url(./images/1920-1950.jpg) no-repeat;
+    background-position: center 20%;
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+}
+.home-period2-div{
+    background: url(./images/1950-1980\(2\).jpg) no-repeat;
+    background-position: center 90%;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.home-period4-div{
+    background: url(./images/2000-2024.jpg) no-repeat;
+    background-position: center 70%;
+    background-size: cover;
+    border-radius: 10px;
+    height: 220px;
+}
+
+.selected {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #ffffff;
+}
+.selected span {
+    position: relative;
+}
+.selected:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    transition: .3s ease-in-out;
+}
+.selected:hover:before {
+    width: 100%;
+}
+ul li:nth-child(1) .selected:before{
+    background: #aaffe1;
+}
+ul li:nth-child(2) .selected:before{
+    background: #AAFFE6;
+}
+ul li:nth-child(3) .selected:before{
+    background: #AAFFEB;
+}
+ul li:nth-child(4) .selected:before{
+    background: #AAFFEF;
+}
+ul li:nth-child(5) .selected:before{
+    background: #AAFFF4;
+}
