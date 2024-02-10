@@ -42,7 +42,7 @@ footer {
     background-color: #444;
     border-radius: 10px;
     color: white;
-    background: url('./синие\ граффити\ на\ стене.jpg') no-repeat;
+    background: url('./Images/blue-graffiti-on-wall.jpg') no-repeat;
     background-size: cover;
     background-position: center right; 
     width: 100%;
@@ -70,7 +70,7 @@ li {
     width: 100%;
     height: 100px;
     border: 2px solid none;
-    background-image: url(./svgviewer-png-output.png);
+    background-image: url('./Images/logo.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -192,7 +192,7 @@ h2 {
 }
 .вкладка.активна {
     font-size: 17px;
-    background-image: url(./синие\ граффити\ на\ стене\ \(1\).jpg);
+    background-image: url('./Images/blue-graffiti-on-wall2.jpg');
     background-size: 120px;
     background-position: center center;
     color: white;
@@ -265,7 +265,7 @@ h2 {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(./граффити\ на\ стене.jpg) no-repeat;
+    background: url('./Images/graffiti-on-wall2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -453,14 +453,14 @@ h2 {
     margin-left: 5px;
 } 
 .home-period1-div{
-    background: url(./1920-1950.jpg) no-repeat;
+    background: url('./Images/1920-1950.jpg') no-repeat;
     background-position: center 20%;
     background-size: cover;
     border-radius: 10px;
     height: 200px;
 }
 .home-period2-div{
-    background: url(./1950-1980.jpg) no-repeat;
+    background: url('./Images/1950-1980.jpg') no-repeat;
     background-position: center 90%;
     background-size: cover;
     width: 100%;
@@ -468,7 +468,7 @@ h2 {
     border-radius: 10px;
 }
 .home-period4-div{
-    background: url(./2000-2024.jpg) no-repeat;
+    background: url('./Images/2000-2024.jpg') no-repeat;
     background-position: center 70%;
     background-size: cover;
     border-radius: 10px;
