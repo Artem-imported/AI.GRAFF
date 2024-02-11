@@ -93,7 +93,7 @@ body .container {
     padding: 15px;
     background-color: #ffffff;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border: 2px solid rgba(207, 207, 207, 0.829);
 }
 h2 {
@@ -515,4 +515,12 @@ ul li:nth-child(4) .selected:before{
 }
 ul li:nth-child(5) .selected:before{
     background: #AAFFF4;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+#basics .section h2{
+    font-size: 20px;
 }
