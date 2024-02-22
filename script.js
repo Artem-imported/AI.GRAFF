@@ -225,7 +225,13 @@ function redirectToMainSite() {
   function showContacts() {
     document.getElementById('content').innerHTML = `
       <h2>О нас</h2>
-      <p>Тут буде інформація про нашу творчість.</p>
+      <p>Це нажаль наш єдиний проект.</p>
+      <h2>Ссилки з сайту:</h2>
+      <h3>Художники:</h3>
+      <h4>Бенсі:</h4>
+      <p><a href="https://www.google.com/search?q=%D0%86%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%8F+%D1%82%D0%B0+%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8+%22%D0%91%D0%B5%D0%BD%D1%81%D1%96%22&source=lmns&bih=735&biw=1039&hl=uk&sa=X&ved=2ahUKEwi_p8SotLCEAxXYkf0HHaTdC7oQ0pQJKAB6BAgBEAI" style="color: lightblue">Пошук в Google</a></p>
+      <h4>Мая (Maya Hayuk):</h4>
+      <p><a href="https://www.mayahayuk.com/" target="_blank" style="color: lightblue">Офіційна сторінка.</a></p>
     `;
   }
   
