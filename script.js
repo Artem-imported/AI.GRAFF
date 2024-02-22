@@ -186,7 +186,7 @@ function redirectToMainSite() {
       <h2>Галерея</h2>
       <div class="список-вкладок">
           <div class="вкладка активна" onclick="відкритиВкладку(event, 'вкладка1')"><a href="#" class="glow-button">Бенсі</a></div>
-          <div class="вкладка" onclick="відкритиВкладку(event, 'вкладка2')"><a href="#" class="glow-button">Мери</a></div>
+          <div class="вкладка" onclick="відкритиВкладку(event, 'вкладка2')"><a href="#" class="glow-button">Шева</a></div>
           <div class="вкладка" onclick="відкритиВкладку(event, 'вкладка3')"><a href="#" class="glow-button">Мая</a></div>
       </div>
   
@@ -201,13 +201,21 @@ function redirectToMainSite() {
       </div>
   
       <div id="вкладка2" class="зміст">
-        <h2>Мери</h2>
-        
+        <h2>Шева</h2>
+        <div class="galery-sheva">
+          <div class="galery-sheva-1"></div>
+          <div class="galery-sheva-2"></div>
+        </div>
       </div>
   
       <div id="вкладка3" class="зміст">
         <h2>Мая (Maya Hayuk)</h2>
-        
+        <div class="galery-maya">
+          <div class="galery-maya-1"></div>
+          <div class="galery-maya-2"></div>
+          <div class="galery-maya-3"></div>
+          <div class="galery-maya-4"></div>
+      </div>
       </div>
     </div>
       
